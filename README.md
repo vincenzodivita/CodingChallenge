@@ -7,8 +7,6 @@ My very first web project.
 This project was an admission test for Boolean S.R.L.
 
 ## Getting Started
-
-## Getting Started
 Really?
 ### Installing
 
