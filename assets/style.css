@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url("/background.jpg");
+  background-image: url("/img/background.jpg");
   background-size: cover;
 }
 
@@ -20,7 +20,7 @@ header {text-align: center;}
 
 header img {width: 300px;}
 
-h1 {color: #00dd00; font-size: 24pt;margin-bottom: 5px;}
+h1 {color: #00dd00; font-size: 24pt; margin-bottom: 5px;}
 
 .buttons {background-color: #00dd00; padding: 10px;}
 
