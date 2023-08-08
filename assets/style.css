@@ -1,0 +1,41 @@
+*, *::after, *::before {
+  margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body {
+  background-image: url("/background.jpg");
+  background-size: cover;
+}
+
+.container {
+  width: 1000px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 100px;
+}
+
+header {text-align: center;}
+
+header img {width: 300px;}
+
+h1 {color: #00dd00; font-size: 24pt;margin-bottom: 5px;}
+
+.buttons {background-color: #00dd00; padding: 10px;}
+
+main {color: white; padding: 10px;}
+
+.mono-nome {font-size: 1rem; margin-bottom: 5px;}
+
+h3, h4 {font-size: 0.7rem; margin-bottom: 3px;}
+
+h3::before {content: "\27BE";}
+
+.carica {border-radius: 5px; padding: 10px; margin-bottom: 20px;}
+
+#mono1 {background-color: #f5b453;width: 30%;}
+
+#mono2 {background-color: #00dd00;width: 50%;}
+
+#mono3 {background-color: #be4141;width: 15%;}

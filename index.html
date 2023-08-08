@@ -1,91 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="main.css">
-  </head>
-  <!-- Inizio body -->
-  <body>
-    <!-- Container -->
-    <div class="conteiner">
-      <!-- Inizio Header -->
-      <header>
-        <!-- Logo Lim -->
-        <img class="logo" src="logo.png">
-        <!-- Intestazione -->
-        <h1>Taking Booleaners from A to B</h3>
-          <!-- Pulsanti funzione -->
-          <div class="buttons">
-            <button type="button">Prenota</button>
-            <button type="button">Termina Prenotazione</button>
-            <button type="button">Accendi Luci</button>
-          </div>
-      </header>
-      <!-- Fine Header -->
+    <link rel="stylesheet" href="assets/style.css">
 
-      <!-- Inizio Main -->
-      <main>
-        <!-- Primo Monopattino -->
-        <div class="monopattino">
-          <!-- Nome Monopattino -->
-          <h2>
-            <input type="radio" name="sceltamonopattino"> Monopattino Gino22
-          </h2>
-          <!-- Posizione + distanza -->
-          <h3>
-            Via Guadalametri - a 220 metri da te
-          </h3>
-          <!-- Stato di carica -->
-          <h4>
-            Stato carica:
-          </h4>
-          <div class="carica" id="Gino22"> </div>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+
+        <!-- Logo Lim -->
+        <img src="img/logo.png" alt="logo">
+
+        <!-- Intestazione -->
+        <h1>Taking Booleaners from A to B</h1>
+
+          <!-- Pulsanti funzione -->
+        <div class="buttons">
+          <button type="button">Prenota</button>
+          <button type="button">Termina Prenotazione</button>
+          <button type="button">Accendi Luci</button>
         </div>
-        <!-- Fine Primo Monopattino -->
+      </header>
+
+      <main>
+
+        <!-- Primo Monopattino -->
+        <div class="monopattino">        
+          <input type="radio" name="sceltamonopattino">
+          <span class="mono-nome">Monopattino Gino22</span>
+          <h3>Via Guadalametri - a 220 metri da te</h3>
+          <h4>Stato carica:</h4>
+          <div class="carica" id="mono1"> </div>
+        </div>
 
         <!-- Secondo Monopattino -->
         <div class="monopattino">
-          <!-- Nome Monopattino -->
-          <h2>
-            <input type="radio" name="sceltamonopattino"> Monopattino Mike24
-          </h2>
-          <!-- Posizione + distanza -->
-          <h3>
-            Via Ricciardoni - a 420 metri da te
-          </h3>
-          <!-- Stato di carica -->
-          <h4>
-            Stato carica:
-          </h4>
-          <div class="carica" id="Mike24">
+            <input type="radio" name="sceltamonopattino">
+            <span class="mono-nome">Monopattino Mike24</span>
+            <h3>Via Ricciardoni - a 420 metri da te</h3>
+            <h4>Stato carica:</h4>
+            <div class="carica" id="mono2">
         </div>
-        <!-- Fine Secondo Monopattino -->
 
         <!-- Terzo Monopattino -->
         <div class="monopattino">
-          <!-- Nome Monopattino -->
-          <h2>
-            <input type="radio" name="sceltamonopattino"> Monopattino Fede154
-          </h2>
-          <!-- Posizione + distanza -->
-          <h3>
-            Via Mentarini - a 490 metri da te
-          </h3>
-          <!-- Stato di carica -->
-          <h4>
-            Stato carica:
-          </h4>
-          <div class="carica" id="Fede154">
+          <input type="radio" name="sceltamonopattino">
+          <span class="mono-nome">Monopattino Fede154</span>
+          <h3>Via Mentarini - a 490 metri da te</h3>
+          <h4>Stato carica:</h4>
+          <div class="carica" id="mono3">
         </div>
-        <!-- Fine Terzo Monopattino -->
-        </main>
-        <!-- Fine Main -->
 
+      </main>
     </div>
-    <!-- Fine Container -->
-
   </body>
-  <!-- Fine Body -->
-
 </html>
