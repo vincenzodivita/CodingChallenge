@@ -24,6 +24,8 @@ h1 {color: #00dd00; font-size: 24pt;margin-bottom: 5px;}
 
 .buttons {background-color: #00dd00; padding: 10px;}
 
+button {padding-inline: 0.5rem;}
+
 main {color: white; padding: 10px;}
 
 .mono-nome {font-size: 1rem; margin-bottom: 5px;}
